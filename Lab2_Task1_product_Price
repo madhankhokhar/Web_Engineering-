@@ -1,0 +1,76 @@
+#Html code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products Pricing Page</title>
+<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<table class="pricing-table">
+  <tr>
+    <td>
+      <img src="T-Shirt.jpeg" alt="Men's T-Shirt">
+      <div class="product-title">Men's T-Shirt Printed Fashion</div>
+      <div class="price">Rs.1249</div>
+    </td>
+    <td>
+      <img src="Wallet.jpeg" alt="Men Leather Wallet - Brown">
+      <div class="product-title">Men Leather Wallets - Brown</div>
+      <div class="price">Rs.749</div>
+    </td>
+    <td>
+      <img src="Wallet2.webp" alt="Men Leather Wallet With Card Holder">
+      <div class="product-title">Men Leather Wallets With Card Holder - Brown / Black</div>
+      <div class="price">Rs.999</div>
+    </td>
+    <td>
+      <img src="Cap.jpeg" alt="High Quality Casual Unisex Cap">
+      <div class="product-title">High Quality Casual Unisex Cap Black</div>
+      <div class="price">Rs.499</div>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
+#CSS_code
+
+
+.pricing-table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+  }
+  
+  .pricing-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: #fff;
+  }
+  
+  .pricing-table img {
+    width: auto; 
+    height: 120px; 
+    margin-bottom: 10px;
+  }
+  
+  .product-title {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .price {
+    color: chocolate;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 5px;
+  }
+  
