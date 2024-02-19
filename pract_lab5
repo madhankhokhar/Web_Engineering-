@@ -1,0 +1,69 @@
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+
+//console.log("Welcome to Programiz!");
+//arr = ["Suresh","Amjad"]
+//arr.push("Madhan")
+//console.log(arr)
+//arr.shift()
+//console.log(arr)
+//console.log(arr.unshift("Razaque"))
+//arr1 = ["Salah","Awais","Asad"]
+//arr2= arr.concat(arr1)
+//console.log(arr2)
+//console.log(arr2.slice(2,4))
+//console.log(arr2.splice(2,1))
+//console.log(arr.indexOf("Madhan"))
+//console.log(arr.includes("Madhan"))
+
+//const person = {
+/*    firstName: "John",
+    lastName: "Doe",
+    age: 50,
+    eyeColor: "blue"
+};
+console.log(Object.keys(person))
+console.log(Object.values(person))
+console.log(Object.entries(person))
+console.log(Object.assign(person))
+
+const person1 = {
+    firstName: "Johny",
+    lastName: "Don",
+    age: 50,
+    eyeColor: "brown"
+};
+const person2 = Object.assign({},person,person1)
+console.log(Object.entries(person2))
+console.log(Object.getOwnPropertyNames(person))*/
+/*function My_Fun(p1,p2){
+    return p1*p2;
+}
+console.log(My_Fun(4,5))*/
+
+const arr = [1,2,3,4,5,6,7,8,9,10]
+function double(arr){
+    for (let i = 0; i < arr.length; i++) {
+    return arr[i] *= 2;
+}
+}
+const result = double(arr)
+
+console.log(result)
+
+
+const arr = [1, 2, 3, 4, 5];
+const arr2 = [];
+
+arr.forEach(function(item) {
+    arr2.push(item * 2);
+});
+
+console.log(arr2);
+
+const filteredArr = arr.filter(function(element){
+    return element % 2 == 0;
+});
+console.log(filteredArr)
+
+arr.filter(item=>(!item % 3)
